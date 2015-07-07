@@ -23,7 +23,7 @@ changeTurn = function(){
          whosTurn = 'X'; //otherwise place 'X'
     }
 }
-alert('Let play some Tic-Tacky-Toe! '+whosTurn+' TEAM, PLACE YOUR MARK!')
+alert('Lets play some Tic-Tacky-Toe! '+whosTurn+' TEAM, PLACE YOUR MARK!')
 /////// the 'put' function //////////////////////
 put = function(){
   if ($(this).is(':empty')){ //if square is empty. 'this' allows for only 1 element in square
